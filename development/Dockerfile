@@ -53,5 +53,5 @@ RUN echo 'deb http://httpredir.debian.org/debian/ jessie contrib' >> /etc/apt/so
 
 ENV PATH=$PATH:/usr/local/maven/bin
 WORKDIR /pinpoint
-VOLUME [/pinpoint]
+VOLUME ["/pinpoint", "/root/.m2"]
 CMD ["mvn", "install", "-Dmaven.test.skip=true"]
