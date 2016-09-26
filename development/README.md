@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/tangrui/pinpoint-development.svg)](https://microbadger.com/images/tangrui/pinpoint-development "Get your own image badge on microbadger.com")
+
 # Usage
 
 You can use the container like this:
